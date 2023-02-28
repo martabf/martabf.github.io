@@ -1,0 +1,125 @@
+:root {
+    --color-theme: blueviolet;
+}
+
+body{
+    background-color: var(--bs-light-border-subtle);
+}
+
+.logo{
+    font-size: 20vw;
+}
+
+#about, #skills, #home, #contact{
+    min-height: 100vh;
+}
+
+#home{
+    background-color: var(--color-theme);
+    border-radius: 20px 200px 20px 200px;
+}
+
+#contact{
+    background-color: var(--color-theme);
+}
+
+#skills{
+    background-color: var(--bs-light);
+}
+
+.about-img, .about-info{
+    padding: 30px;
+}
+
+img{
+    width: 100%;
+    box-shadow: 20px 20px 1px 1px var(--color-theme);
+}
+a{
+    color:white;
+}
+
+.icon{
+    padding: 10px;
+    color: var(--color-theme);
+}
+ul, li{
+    margin:0;
+    padding:0;
+   }
+
+.contact-icon{
+    padding: 20px;
+}
+
+
+ul.contact > li{
+    display: inline-block;
+   
+}
+
+/* home styles*/
+
+#home{
+    min-height: 100vh;
+    padding: 150px 0;
+
+}
+
+
+
+.home-info{
+    padding: 50px;
+    
+}
+
+.home-text h1{
+    font-weight: 700;
+    font-size: 80px;
+    color: white;
+}
+
+.home-text h3{
+    font-weight: 700;
+    color: white;
+}
+
+#about h5{
+    color: var(--color-theme);
+}
+
+#about h3{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.section-title h2{
+    font-weight: 700;
+    font-size: 60px;
+}
+
+
+
+
+/*Contacto*/
+
+.form-control{
+    margin:10px;
+}
+
+
+.contact-info-item{
+    margin:20px;
+}
+.btn{
+    background-color: var(--color-theme);
+    color: white;
+}
+
+.form{
+    background-color: rgba(251, 240, 255, 0.972);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
